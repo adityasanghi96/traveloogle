@@ -68,7 +68,21 @@
 					<span>With a long coastline (actually, two coastlines) and jungle-topped islands anchored in azure waters, Thailand is a tropical getaway for the hedonist and the hermit, the prince and the pauper. This paradise offers a varied menu: playing in the gentle surf of Ko Lipe, diving with whale sharks off Ko Tao, scaling the sea cliffs of Krabi, kiteboarding in Hua Hin, partying on Ko Phi Phi, recuperating at a health resort on Ko Samui and feasting on the beach wherever sand meets sea.</span>
 				  </p>
 			</div>
-		</article>
+    </article>
+    <div class="wrapper">
+        <h1 style="padding-bottom:20px;">Temperature in Thailand:</h1>
+        <div class="loader"></div>
+        <div class="location">
+          <h1 class="location-timezone">Timezone</h1>
+          <canvas class="icon" width="128" height="128"></canvas>
+        </div> 
+        <div class="temperature">
+          <div class="degree-section">
+            <h2 class="temperature-degree"></h2>
+            <span>F</span>
+            </div>
+            <div class="temperature-description"></div>
+        </div>
 		</div>
     </div>
 
@@ -76,8 +90,8 @@
     <!-- FOOTER SECTION -->
     <div class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4" style="float: left; width: 33%;">
+        <div class="row-footer">
+          <div>
             <ul>
               <li><a href="index.html"><h5>Home</h5></a></li>
               <li><a href="contact.html"><h5>Contact Us</h5></a></li>
@@ -85,15 +99,18 @@
               <li><a href="https://twitter.com/traveloogle12"><h5>Twitter</h5></a></li>
             </ul>
           </div>
-		  <h4><div id="time" class="col-md-4" style="color:white;float:left; width:33%;"></div></h4>
-          <div class="col-md-4" style="color:white;float: right; width: 33%; text-align:right">
+		      <h4><div id="time"></div></h4>
+          <div>
             <ul>
               <li><h5>&copy; ADITYA SANGHI</h5></li>
-			</ul>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/skycons.js"></script>
+    <script src="./js/thailand.js"></script>  
   </body>
 </html>

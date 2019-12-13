@@ -17,5 +17,8 @@ function checkTime(i) {
 
 function abc()
 {
-	window.alert("Feedback submitted");
+    window.alert("Feedback submitted");
+    document.querySelector('#feedback').value="";
+    document.querySelector('#category').value="";
+    document.querySelector('#exp').value="";
 }
